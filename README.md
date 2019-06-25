@@ -53,10 +53,10 @@ It was used a model created in the Gazebo composed of three environments and arr
 ### Mapping
 The results of the 2D and 3D mapping process shows in Figure 5 and 6, and the repetition of the robot motion must be repeated in the environment for a better result or better configurations. 
 
-<p align="center"> <img src="./images/img5.png"> </p>
+<p align="center"> <img src="./images/img6.png"> </p>
 <p align="center"> Fig. 5: Mapped environment with loop closures constraints </p>
 
-<p align="center"> <img src="./images/img6.png"> </p>
+<p align="center"> <img src="./images/img7.png"> </p>
 <p align="center"> Fig. 6: Mapped environment with loop closures scenes. </p>
 
 ## Discusion
