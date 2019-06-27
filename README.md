@@ -64,7 +64,7 @@ The results of the 2D and 3D mapping process shows in Figure 5a, 5b and 5c, the 
 <p align="center"> <img src="./images/img8.png"> </p>
 <p align="center"> Fig. 5b:  Mapped personal environment 3D. </p>
 
-<p align="center"> <img src="./images/img8.png"> </p>
+<p align="center"> <img src="./images/img9.png"> </p>
 <p align="center"> Fig. 5c:  Mapped Kitchen environment 3D. </p>
 
 ## Discusion
