@@ -46,24 +46,30 @@ The Figure 3 shows the structure used for project in ROS.
 <p align="center"> Fig. 3: Structure used for project.  </p>
 
 ### Scene Conﬁguration
-It was used a model created in the Gazebo composed of three environments and arranged objects in its interior shows Figure 4, so that the robot can apply the correct loop closures while mapping the area.
+It was used a model created in the Gazebo composed of three environments and arranged objects in its interior shows Figure 4, so that the robot can apply the correct loop closures while mapping the area. The mapping was also performed in a kitchen model in Figure 5. 
 
 <p align="center"> <img src="./images/img5.png"> </p>
 <p align="center"> Fig. 4: Personal Environment. </p>
 
+<p align="center"> <img src="./images/img6.png"> </p>
+<p align="center"> Fig. 5:  Kitchen Environment. </p>
+
 ## Results
 ### Mapping
-The results of the 2D and 3D mapping process shows in Figure 5 and 6, and the repetition of the robot motion must be repeated in the environment for a better result or better configurations. 
-
-<p align="center"> <img src="./images/img6.png"> </p>
-<p align="center"> Fig. 5: Mapped environment with loop closures constraints </p>
+The results of the 2D and 3D mapping process shows in Figure 5a, 5b and 5c, the robot motion must be repeated in the environment for a better result or better configurations. 
 
 <p align="center"> <img src="./images/img7.png"> </p>
-<p align="center"> Fig. 6: Mapped environment with loop closures scenes. </p>
+<p align="center"> Fig. 5a:  Mapped environment. </p>
+
+<p align="center"> <img src="./images/img8.png"> </p>
+<p align="center"> Fig. 5b:  Mapped personal environment 3D. </p>
+
+<p align="center"> <img src="./images/img8.png"> </p>
+<p align="center"> Fig. 5c:  Mapped Kitchen environment 3D. </p>
 
 ## Discusion
 ### Mapping
-The performance of mapping the robot was reasonable when mapping regions with little space, several errors occurred. This was because the robot was erroneously driven toward the wall due to the slow processing speed of the computer, fell and rolled, but the generated map obtained 172 loop closures. The result can be visualized in Figures 5 of 6 in the formation of the map for the closure loop. They were changed for better performance due to the locking of the robot the values Kp/MaxFeatures for 200 and the Vis/MinInliers for 10.
+The performance of mapping the robot was reasonable when mapping regions with little space, several errors occurred. This was because the robot was erroneously driven toward the wall due to the slow processing speed of the computer, fell and rolled, but the generated map obtained 36 loop closures. The result shows in Figure 5a, 5b e 5c formation of the map for the closure loop. For better performance due to the locking of the robot the values Kp/MaxFeatures for 200 and the Vis/MinInliers for 10. The mapping in a lower environment results are more complicated due to closure loop and overlap of the layers, a better result has been obtained in the Kitchen environment, but a calibration results become adequat.
 
-## Future Work
+## Conclusion / Future Work
 Mapping for environment recognition is a critical point in robotic applications as they are used in many industry sectors. For this work, the correct encodings were performed so that the nodes communicate correctly in the environment: Teleop, RTAB-Map and perform the 2D and 3D mapping with the RTAB-Map. Additional enhancements include improved parameterization to be able to recognize loop closures, and later deployment in a field robot.
